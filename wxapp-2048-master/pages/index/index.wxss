@@ -1,0 +1,15 @@
+/**index.wxss**/
+.more{
+	color: #aaa;
+	font-size: 14px;
+	position:fixed;
+	bottom: 20px;
+}
+.usermotto button{
+  color: rgb(255, 255, 255);
+  margin-top:10px;
+  width: 200px
+}
+.container {
+  padding: 200rpx 0;
+} 

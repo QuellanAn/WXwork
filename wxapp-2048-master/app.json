@@ -1,0 +1,39 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/2048/2048",
+    "pages/shakeDice/shakeDice",
+    "pages/whiteBlock/whiteBlock/whiteBlock",
+    "pages/whiteBlock/endless/play",
+    "pages/whiteBlock/time/play",
+    "pages/whiteBlock/speed/play",
+    "pages/whiteBlock/end/end",
+    "pages/whiteBlock/logs/logs"
+  ],
+  "window":{
+    "navigationBarBackgroundColor":"#ffffff",
+    "navigationBarTextStyle":"#1AAD16",
+    "navigationBarTitleText":"微信接口功能演示",
+    "backgroundColor":"#eeeeee",
+    "backgroundTextStyle":"light"
+  },
+  "tabBar": {
+    "color": "#353535",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "游戏"
+    }, {
+      "pagePath": "pages/logs/logs",
+      "text": "日志"
+    }]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": false
+}

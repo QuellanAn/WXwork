@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="container">
+  	
+	<view wx:for="{{gameList}}" wx:for-index="i" wx:key="i" class="usermotto">
+	    <button type="primary" disabled="{{disabled}}" bindtap="start{{gameList[i]}}">
+        <view wx:if="{{gameList[i] =='shakeDice'}}"> 摇骰子 </view>
+        <view wx:elif="{{gameList[i] == 'whiteBlock'}}"> 别踩白方块 </view>
+        <view wx:else> {{gameList[i]}} </view>
+      </button>
+	</view>
+
+	<text class="more">更多内容，敬请期待...</text>
+</view>
